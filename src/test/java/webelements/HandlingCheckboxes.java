@@ -18,7 +18,7 @@ import net.thucydides.core.webelements.Checkbox;
 @RunWith(SerenityRunner.class)
 public class HandlingCheckboxes extends PageObject {
 
-	@Managed(driver = "firefox")
+	@Managed(driver = "chrome")
 	WebDriver driver;
 
 	@Test
